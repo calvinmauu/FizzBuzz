@@ -3,8 +3,6 @@ import {Output} from "./util";
 
 const argLength = process.argv.length;
 
-console.log("Hello World!");
-
 if ((argLength != 5)&&(argLength != 3)) {
  console.log("You need either 3 or 5 arguments!");
  process.exit();
